@@ -6,4 +6,3 @@ def uppercase(s):
             char = chr(ord(char) - offset)
         print("{}".format(char), end="")
     print()
-
