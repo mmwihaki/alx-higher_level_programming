@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-import importlib.util
+if __name__ == "__main__":
+    import importlib.util
 
 module_spec = importlib.util.spec_from_file_location("hidden_4", "/alx-higher_level_programming/0x02-python-import_modules/hidden_4.pyc")
 module = importlib.util.module_from_spec(module_spec)
