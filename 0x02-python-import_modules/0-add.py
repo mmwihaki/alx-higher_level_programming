@@ -2,9 +2,9 @@
 if __name__ == "__main__":
     from add_0 import add
     
-	a = 1
-    b = 2
+a = 1
+b = 2
     
-    result = a + b
+result = a + b
     
-    print("{} + {} = {}".format(a, b, result))
+print("{} + {} = {}".format(a, b, result))
